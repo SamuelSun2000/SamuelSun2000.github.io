@@ -1,0 +1,26 @@
+---
+title: "Haochen's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Welcome Page
+
+Hello and welcome to Haochen's website.
+
+This is a website to introduce myself -- currently I'm a student of CUIMC, majoring in biostatistics.
+
+This is my [resume](Haochen Sun_CV.pdf). (This is a short, one-paged version)
+
+Here is a link to my [github]() and some links of my repositories.
++ [a branch of my RA work]()
++ [a homework just to make this website more fancy]()
+
+Sorry I have programs that is now private so you cannot visit on github :(
+
+
+
+![]()
