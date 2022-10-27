@@ -1,26 +1,21 @@
----
-title: "Haochen's website"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: cerulean
----
 
 ## Welcome Page
 
-Hello and welcome to Haochen's website.
+Hello and welcome to Haochen's website!
 
-This is a website to introduce myself -- currently I'm a student of CUIMC, majoring in biostatistics.
+![](Best-Website-Welcome-Message-Examples.png)
 
-This is my [resume](Haochen Sun_CV.pdf). (This is a short, one-paged version)
+This is a website to introduce myself -- currently I'm a freshman of CUIMC, majoring in biostatistics.
 
-Here is a link to my [github]() and some links of my repositories.
-+ [a branch of my RA work]()
-+ [a homework just to make this website more fancy]()
+This is my [resume](Haochen Sun_CV.pdf). (This is a short, one-paged version) For more details, please visit [this site](about.html).
+
+Here is a link to my [github](https://github.com/SamuelSun2000) and some links of my repositories.
+
++ [A branch of my RA work](https://github.com/SamuelSun2000/xqtl-pipeline)
+
++ [A homework](https://github.com/SamuelSun2000/p8105_hw3_hs3393) just to make this website more fancy.
 
 Sorry I have programs that is now private so you cannot visit on github :(
 
+To connect me, please <a href = "mailto: hs3393@cmuc.columbia.edu"> Email me !</a>
 
-
-![]()
