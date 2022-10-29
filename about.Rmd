@@ -1,0 +1,55 @@
+# Education
+<p style="text-align:left;">**Columbia University**<span style="float:right;">New York, USA</span></p>
+
+**Master of Science**
+
++ Major: Biostatistics/Theory and Methods track
+
+<p style="text-align:left;">**Tsinghua University**<span style="float:right;">Beijing, China</span></p>
+
+**Bachelor of Science**
+
++ Major: Pharmaceutical sciences
++ GPA : 3.71/4.0
++ Awards: Outstanding graduate (2022, awarded to 3/23), Scholarship of overall excellence (2021,awarded to top 25%), Scholarship for excellence in academics (2020), Scholarship for progress in academics (2019)
+
+# Research 
+
+**Exploring a new method for short fragment nucleic acid detection based on Cas13 **
+
++ Aim to detect degraded RNA in the environment by utilizing Cas13 detection.
++Participated in analyzing the NGS data. Verified complementary sequence is generated in the in
+vitro transcription (IVT) process which influence the detecting result. Revealed the corresponding
+relationship between complementary sequence reads number and the level of signal background. 
++ Set up mathematical model to simulate the damage process of RNA and predicted the sensitivity of Cas 13 detection and qPCR detection. Conducted target site selection, damage condition optimization, reaction system optimization, multiple site detection, detection under damage condition and a series of experiment. Confirmed Cas 13 detection method performs much better
+targeting damaged RNA.
++ Responsible for analyzing all the experimental data using statistical methods. Plotted main figures
+of the essay in a ready-to-publish format. The essay is under final revision by the supervisor. 
+
+**Synthesis and biological evaluation of anticancer drug ponatinib**
+
++ Synthesized anticancer drug ponatinib designed for BCR-ABL T315I mutated cancer cells. Used
+Sonogashira reaction to couple the compounds containing acetylene group.
++ Verified the efficacy of synthesized drug on a cellular level by western blot and flow cytometry. Demonstrated the efficacy of drug is caused by inhibition of BCR-ABL gene and preventing its downstream protein phosphorylation. Confirmed cell growth inhibition is caused by cell cycle
+inhibition (S to G2) using statistical analysis.
+
+**Targeted delivery of zoledronic acid and effect verification**
+
++ Designed the method to deliver zoledronic acid to cancer cells by immunoliposome. Reducedbone
+absorption of free drug. Succeed in manufacturing liposomes that can be absorbed by cells and function as free drugs to induce T cell activation. Analyzed the cell cytometry data and verified the significant effect after delivering cells with free drug and liposome.
+
+**Optimize methods for library preparation**
+
++ Established a robust process of library preparation for DNA. Realized abundant DNA output with
+relatively low PCR cycles. Verified the feasibility of theprotocol when DNA input is 0.5pg. Confirmed the fidelity by analyzing sequencing data.
+
+# Practical Skills
+
++ Proficient user of R, Latex, MS Word, Excel, Powerpoint and Onenote.
++ Knowledge of Python, Linux shell and other bioinformatics workflow.
++ Master various molecular biology skills include molecular cloning, library construction, qPCR, cell
+line culturing and many other experimental methods. 
++ Bilingual in English/Chinese.
+
+
+
