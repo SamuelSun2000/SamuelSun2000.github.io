@@ -19,3 +19,5 @@ Sorry I have programs that is now private so you cannot visit on github :(
 
 To connect me, please <a href = "mailto: hs3393@cmuc.columbia.edu"> Email me !</a>
 
+To visit the dashboard I made, please visit [this site](plot-result.html).
+

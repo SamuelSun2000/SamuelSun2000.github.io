@@ -6,7 +6,7 @@ output:
     vertical_layout: fill
 ---
 
-```{r library, echo = FALSE}
+```{r library, include = FALSE}
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -34,7 +34,7 @@ rest <- rest_inspec %>%
         "Sandwiches/Salads/Mixed Buffet" = "Sandwiches/Salads") )
 ```
 
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Figure 1
@@ -51,7 +51,7 @@ rest %>%
 
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Figure 2
