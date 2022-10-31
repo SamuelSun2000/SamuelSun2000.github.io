@@ -1,0 +1,61 @@
+```{r library, echo = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r import data}
+
+data("rest_inspec")
+
+rest <- rest_inspec %>% 
+  filter(!is.na(grade),
+         !is.na(score),
+         grade != "Not Yet Graded") %>% 
+  select(boro, building, cuisine_description, dba, score, grade, inspection_date) %>% 
+  rename(cuisine = cuisine_description) %>% 
+  distinct() %>%
+  mutate(
+    cuisine = recode(cuisine,
+        "Ice Cream, Gelato, Yogurt, Ices" = "Ice Cream",
+        "Bottled beverages, including water, sodas, juices, etc." = "Bottled beverage",
+        "Juice, Smoothies, Fruit Salads" = "Juice",
+        "Latin (Cuban, Dominican, Puerto Rican, South & Central American)" = "Latin",
+        "Vietnamese/Cambodian/Malaysia" = "Vietnamese",
+        "Sandwiches/Salads/Mixed Buffet" = "Sandwiches/Salads") )
+```
+
+```{r fig1:cuisine type and score}
+rest %>%
+  filter(boro == "BRONX") %>% 
+  mutate(text_label = str_c("Cuisine: ", cuisine, "\nGrade: ", grade)) %>% 
+  mutate(cuisine = fct_reorder(cuisine, score)) %>% 
+  plot_ly(
+    y = ~score, color = ~cuisine ,
+    type = "box", colors = "viridis"
+  ) 
+
+```
+
+
+```{r fig2: rate between boros}
+rest %>% 
+  filter(boro != "Missing") %>% 
+  group_by(boro, grade) %>% 
+  summarize(num = n()) %>% 
+  plot_ly(
+    y = ~num, x = ~boro, color = ~grade, type = "bar"
+  ) %>% 
+  layout(yaxis = list(title = 'Count'), barmode = "stack")
+  
+```
+
+```{r fig}
+rest %>% 
+  filter(boro != "Missing") %>% 
+  group_by(boro, grade) %>% 
+  summarize(num = n()) %>% 
+  mutate(all_num = sum(num)) %>% 
+  mutate(proportion = num/all_num)%>% 
+  plot_ly(x=~grade, y=~proportion, type = "scatter", color = ~boro, mode = "line") 
+```
