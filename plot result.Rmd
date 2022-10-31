@@ -37,7 +37,7 @@ rest <- rest_inspec %>%
 Column {data-width=550}
 -----------------------------------------------------------------------
 
-### Figure 1
+### Inspection Score of Restaurants Serving Different Cuisine Types
 
 ```{r fig1:cuisine type and score}
 rest %>%
@@ -54,7 +54,7 @@ rest %>%
 Column {data-width=450}
 -----------------------------------------------------------------------
 
-### Figure 2
+### Ispection Grade of Restaurant in Different Boroughs 
 
 ```{r fig2: rate between boros}
 rest %>% 
@@ -68,8 +68,7 @@ rest %>%
   
 ```
 
-### Figure 3
-
+### Ispection Grade Proportions in Different Boroughs
 ```{r fig}
 rest %>% 
   filter(boro != "Missing") %>% 

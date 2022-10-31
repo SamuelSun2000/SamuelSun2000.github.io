@@ -4,7 +4,7 @@ navbar:
   title: "Home"
   right:
     - text: "Dashboard"
-      href: plot result.html
+      href: plot-result.html
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/SamuelSun2000/
 output:
   html_document:
-    theme: cerulean
+    theme: united
