@@ -1,7 +1,16 @@
+---
+title: "Plot_ly result"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
 ```{r library, echo = FALSE}
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+library(flexdashboard)
 ```
 
 ```{r import data}
@@ -25,6 +34,10 @@ rest <- rest_inspec %>%
         "Sandwiches/Salads/Mixed Buffet" = "Sandwiches/Salads") )
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+## PlotA
 ```{r fig1:cuisine type and score}
 rest %>%
   filter(boro == "BRONX") %>% 
@@ -37,6 +50,10 @@ rest %>%
 
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### chart B
 
 ```{r fig2: rate between boros}
 rest %>% 
