@@ -14,6 +14,8 @@ Here is a link to my [github](https://github.com/SamuelSun2000) and some links o
 
 + [A homework](https://github.com/SamuelSun2000/p8105_hw3_hs3393) just to make this website more fancy.
 
++ Here is the [repo](https://github.com/SamuelSun2000/SamuelSun2000.github.io) of this website.
+
 Sorry I have programs that is now private so you cannot visit on github :(
 
 To connect me, please <a href = "mailto: hs3393@cmuc.columbia.edu"> Email me!</a>
