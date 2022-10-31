@@ -37,7 +37,8 @@ rest <- rest_inspec %>%
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-## PlotA
+### Figure 1
+
 ```{r fig1:cuisine type and score}
 rest %>%
   filter(boro == "BRONX") %>% 
@@ -53,7 +54,7 @@ rest %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### chart B
+### Figure 2
 
 ```{r fig2: rate between boros}
 rest %>% 
@@ -66,6 +67,8 @@ rest %>%
   layout(yaxis = list(title = 'Count'), barmode = "stack")
   
 ```
+
+### Figure 3
 
 ```{r fig}
 rest %>% 
